@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.CustomTabActivity"
+    android:orientation="vertical">
+    <include layout="@layout/custom_toolbar"/>
+    <android.support.design.widget.TabLayout
+        android:id="@+id/tabLayoutChat"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/tab_height"
+        app:tabTextColor="@color/green_400"
+        app:tabGravity="fill"
+        app:tabSelectedTextColor="@color/white_color"
+        app:tabBackground="@color/colorPrimary"
+        app:tabIndicator="@color/colorPrimaryDark"
+        app:tabMode="fixed"
+        app:tabIndicatorHeight="@dimen/tabIndicatorHeight"
+        app:tabTextAppearance="@style/TextAppearance.AppCompat.Small">
+    </android.support.design.widget.TabLayout>
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewpager_chat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </android.support.v4.view.ViewPager>
+</LinearLayout>

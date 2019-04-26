@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">TabLayoutViewPager</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Home fragment</string>
+    <string name="open_call">Open Call</string>
+    <string name="do_call">Do Call</string>
+    <string name="tab_header">Tabs</string>
+    <string name="open_log_fragment">Open Log fragment</string>
+    <string name="open_chat_fragment">Open Chat Fragment</string>
+    <string name="logout">Logout</string>
+    <string name="icon_tab">Icon Tab</string>
+    <string name="text_tab">Text Tab</string>
+    <string name="custom_tab">Custom Tab</string>
+    <string name="refresh">Refresh</string>
+    <string name="iconOnly">IconOnly</string>
+</resources>
